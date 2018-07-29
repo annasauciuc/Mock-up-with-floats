@@ -6,40 +6,47 @@ You will write CSS to style the page for a small mobile device first. Then, usin
 
 ## Project Instructions
 
-Create your file structure: Create an index.html and styles.css file. 
+- Create your file structure: Create an index.html and styles.css file. 
 
-Create a folder called css and put your styles.css file inside of it. The name of the folder should not be capitalized. 
+- Create a folder called css and put your styles.css file inside of it. The name of the folder should not be capitalized. 
 
-Link the styles.css file to index.html 
+- Link the styles.css file to index.html 
 
-Build the layout using a mobile first design: Make sure the HTML file includes the viewport meta tag in the head of the document. See Configuring the Viewport to understand why and how to add this tag. 
+##### Build the layout using a mobile first design: 
 
-Look at the provided mockup for the mobile device and add the same header, titles, content and footer information into your index.html file. 
+- Make sure the HTML file includes the viewport meta tag in the head of the document. See Configuring the Viewport to understand why and how to add this tag. 
 
-Use the provided images for the portfolio gallery images shown in the mockups. 
+- Look at the provided mockup for the mobile device and add the same header, titles, content and footer information into your index.html file. 
 
-Use a font from Google Fonts for the text. 
+- Use the provided images for the portfolio gallery images shown in the mockups. 
 
-Use CSS to style your layout to match the provided mobile mockup. Make sure your mobile design matches the mockup at 320px screen size. 
+- Use a font from Google Fonts for the text. 
 
-Once you have everything in place for the mobile layout, use media queries to add breakpoints to adjust the layout for wider tablet and desktop screens. 
+- Use CSS to style your layout to match the provided mobile mockup. Make sure your mobile design matches the mockup at 320px screen size. 
 
-Match the design as it should look on a tablet device that is 768px wide and a desktop screen size that is 1024px wide. Use a mobile-first approach by writing your media queries using the min-width property in your CSS. 
+##### Once you have everything in place for the mobile layout, use media queries to add breakpoints to adjust the layout for wider tablet and desktop screens. 
 
-Once all your breakpoints are in place, double check your layout matches the three mockups. The design does not need to be exact, but the general spacing and arrangement of the elements should match the design of the mockups for mobile, tablet and desktop. 
+- Match the design as it should look on a tablet device that is 768px wide and a desktop screen size that is 1024px wide. 
 
-Feel free to replace the profile image and customize the text, but the layouts should match the mockups. 
+- Use a mobile-first approach by writing your media queries using the min-width property in your CSS. 
 
-Link your navigation menu to the correct sections of the page using IDs to link to anchor tags. See this video on Linking to Sections of a Web Page. 
+##### Once all your breakpoints are in place, double check your layout matches the three mockups. 
 
-Make sure to check your code is valid by running it through an HTML and CSS validator.
+- The design does not need to be exact, but the general spacing and arrangement of the elements should match the design of the mockups for mobile, tablet and desktop. 
+
+- Feel free to replace the profile image and customize the text, but the layouts should match the mockups. 
+
+##### Link your navigation menu to the correct sections of the page using IDs to link to anchor tags. See this video on Linking to Sections of a Web Page. 
+
+##### Make sure to check your code is valid by running it through an HTML and CSS validator.
+
 - Links to the validators can be found in the Project Resources. This will help you spot any errors that might be in your code.
-- There are a few exceptions that you don’t need to fix:
--- Don’t worry about any warnings, we just need you to check any errors that might be there.
--- If CSS validator flags use of calc, vendor prefixes or pseudo-elements/pseudo-classes these errors should be ignored.
--- If HTML validator flags use of pipe (|) in Google font links/URLs this error can also be ignored.
+    - ##### There are a few exceptions that you don’t need to fix:
+    - Don’t worry about any warnings, we just need you to check any errors that might be there.
+    - If CSS validator flags use of calc, vendor prefixes or pseudo-elements/pseudo-classes these errors should be ignored.
+    - If HTML validator flags use of pipe (|) in Google font links/URLs this error can also be ignored.
 
-Before you submit your project for review, make sure you can check off all of the items on the checklist. The checklist is designed to help you make sure you’ve met the grading requirements and that your project is complete and ready to be submitted!
+##### Before you submit your project for review, make sure you can check off all of the items on the checklist. The checklist is designed to help you make sure you’ve met the grading requirements and that your project is complete and ready to be submitted!
 
 NOTE: A good practice is to check your project for cross browser compatibility. Making sure that it looks and functions correctly in multiple (at least three) browsers is an important part of being a top-notch developer. 
 
@@ -49,15 +56,20 @@ Some browser options:
 - Internet Explorer/Edge 
 - Safari 
 
-###Extra Credit 
+##### Extra Credit 
 
 You can expand on the project in the following ways:
 
-- Add an additional section to the page, such as a skills section. Don’t forget to create a working link to your new section in the navigation menu. 
+- Add an additional section to the page, such as a skills section. Don't forget to create a working link to your new section in the navigation menu. 
 
-- Add at least TWO additional items to further the style and enhance the portfolio: A new background color for the navigation and/or main sections of the site. Change the color of at least one piece of text. 
+- Add at least TWO additional items to further the style and enhance the portfolio: 
 
-- Add one additional google font that is being used on the page. Any additional styling for links (ie, borders, hover states). When creating your navigation bar, use the HTML5 element for extra structure and semantic markup.
+    - A new background color for the navigation and/or main sections of the site. 
+    - Change the color of at least one piece of text. 
+    - Add one additional google font that is being used on the page. 
+    - Any additional styling for links (ie, borders, hover states). 
+
+When creating your navigation bar, use the HTML5 element for extra structure and semantic markup.
 
 ## Project Resources
 
