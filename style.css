@@ -1,92 +1,106 @@
-*{
+* {
     box-sizing: border-box;
-    margin-right:10px;
-    margin-left:10px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
-body{
+
+body {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     background-color: white;
 }
-h1{
-    text-align: center;
 
-}
-h2,h3{
+h1 {
     text-align: center;
 }
-h2{
-    margin-top:30px;
-    padding-top:40px;
-}
-.container p{
-    text-align: center;
-}
-.header-nav{
-    width:100%;
 
-     margin-left:60px; 
+h2, h3 {
+    text-align: center;
 }
-header{
+
+h2 {
+    margin-top: 30px;
+    padding-top: 40px;
+}
+
+.container p {
+    text-align: center;
+}
+
+.header-nav {
+    width: 100%;
+    margin-left: 60px;
+}
+
+.header-nav ul li {
+    width: 50%;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+}
+
+header {
     background-color: cornsilk;
-    width:100%;
+    width: 100%;
 }
 
-#profile-image{
-    width:100%;
-}
-img{
-    width:100%;
-    height:auto;
-}
-footer{
-    background-color:lightgoldenrodyellow;
-    margin-top:30px;
-    width:100%
-}
-footer p{
+header p {
     text-align: center;
 }
-.bottom-nav{
-   visibility: hidden;
-}
-#back-to-top,#student-name{
- visibility: visible;
- display: inline;
- font-size: 0.8rem;
- /* float:right; */
 
+#profile-image {
+    width: 100%;
 }
-#student-name{
-    float:left;
 
+img {
+    width: 100%;
+    height: auto;
 }
-#back-to-top{
-    float:right;
-}
-.bottom{
-   
-}
-#email{
-   mar
-}
-/* #student-name{
-  float: left;
 
+footer {
+    background-color: lightgoldenrodyellow;
+    margin-top: 30px;
+    width: 100%
+}
 
-} */
-address{
+footer p {
+    text-align: center;
+}
+
+.bottom-nav {
+    visibility: hidden;
+}
+
+#back-to-top, #student-name {
+    visibility: visible;
+    display: inline;
+    font-size: 0.8rem;
+    padding: 0px;
+    margin: 0px;
+    /* float:right; */
+}
+
+#student-name {
+    float: left;
+}
+
+#back-to-top {
+    float: right;
+}
+
+address {
     text-align: justify;
-    
 }
-.clearfix{
-    clear:both;
+
+.clearfix {
+    clear: both;
 }
+
 /* Cristian */
-@media (min-width:768px);{
 
-}
+@media (min-width:768px) {}
+
 /* Ana Maria */
-@media (min-width:1024px);{
 
-}
+@media (min-width:1024px) {}
