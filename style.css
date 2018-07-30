@@ -6,7 +6,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
-    background-color: lightgray;
+    background-color: white;
 }
 h1{
     text-align: center;
@@ -27,6 +27,10 @@ h2{
 
      margin-left:60px; 
 }
+header{
+    background-color: cornsilk;
+    width:100%;
+}
 
 #profile-image{
     width:100%;
@@ -36,28 +40,44 @@ img{
     height:auto;
 }
 footer{
-    background-color:whitesmoke;
+    background-color:lightgoldenrodyellow;
     margin-top:30px;
+    width:100%
+}
+footer p{
+    text-align: center;
 }
 .bottom-nav{
    visibility: hidden;
 }
-#back-to-top{
+#back-to-top,#student-name{
  visibility: visible;
- float:right;
+ display: inline;
+ font-size: 0.8rem;
+ /* float:right; */
 
+}
+#student-name{
+    float:left;
+
+}
+#back-to-top{
+    float:right;
 }
 .bottom{
    
 }
-#student-name{
+#email{
+   mar
+}
+/* #student-name{
   float: left;
 
 
-}
+} */
 address{
-    text-align: center;
-    padding:20px;
+    text-align: justify;
+    
 }
 .clearfix{
     clear:both;
