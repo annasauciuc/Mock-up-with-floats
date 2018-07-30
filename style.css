@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin-right:10px;
+    margin-left:10px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    background-color: lightgray;
+}
+h1{
+    text-align: center;
+
+}
+h2,h3{
+    text-align: center;
+}
+h2{
+    margin-top:30px;
+    padding-top:40px;
+}
+.container p{
+    text-align: center;
+}
+.header-nav{
+    width:100%;
+
+     margin-left:60px; 
+}
+
+#profile-image{
+    width:100%;
+}
+img{
+    width:100%;
+    height:auto;
+}
+footer{
+    background-color:whitesmoke;
+    margin-top:30px;
+}
+.bottom-nav{
+   visibility: hidden;
+}
+#back-to-top{
+ visibility: visible;
+ float:right;
+
+}
+.bottom{
+   
+}
+#student-name{
+  float: left;
+
+
+}
+address{
+    text-align: center;
+    padding:20px;
+}
+.clearfix{
+    clear:both;
+}
+/* Cristian */
+@media (min-width:768px);{
+
+}
+/* Ana Maria */
+@media (min-width:1024px);{
+
+}

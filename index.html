@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <title>Project2</title>
 </head>
 
@@ -14,19 +15,21 @@
     <header>
         <div>
             <h1>Student Name</h1>
-            <nav>
-                <ul>
-                    <li>HOME</li>
-                    <li>PORTFOLIO</li>
-                    <li>CONTACT</li>
-                </ul>
-            </nav>
+            <div class="header-nav">
+                <nav>
+                    <ul>
+                        <li>HOME</li>
+                        <li>PORTFOLIO</li>
+                        <li>CONTACT</li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <div>
-            <img src="images/responsive-layout-profile.png" alt="profile image">
-            <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web
-                development at 20h-talent and am excited to put all my skills to use!</p>
-        </div>
+
+        <img id="profile-image" src="images/responsive-layout-profile.png" alt="profile image">
+        <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web development
+            at 20h-talent and am excited to put all my skills to use!</p>
+
     </header>
 
     <div class="container">
@@ -36,7 +39,7 @@
             <h3>Marketing Page</h3>
             <p>This project shows the front page of marketing web site meant for specific business i'm intersted in.</p>
         </div>
-        <div class="container-item"> 
+        <div class="container-item">
             <img src="images/portfolio-2.png" alt="search page">
             <h3>Search Page</h3>
             <p>This project searches through specific data base to find information that the users is trying to look uo.</p>
@@ -70,21 +73,27 @@
         </p>
         <address>
             <p>Phone: +1(111)555-1234 </p>
-            <p>Email:
-                <email@yoursite class="com"></email@yoursite>
+            <p>Email me:
+                <a href="mailto:sauciuc.anamaria.dd@gmail.com">sauciuc.anamaria.dd@gmail.com</a>
             </p>
+
+
         </address>
-        <h1>
-            <small>Student name</small>
-        </h1>
-        <nav>
-            <ul>
-                <li>HOME</li>
-                <li>PORTFOLIO</li>
-                <li>CONTACT</li>
-                <li>BACK TO TOP</li>
-            </ul>
-        </nav>
+        <div class="bottom">
+            <span id="student-name" class="clearfix">
+                <small>Student name</small>
+            </span>
+            <nav  class="bottom-nav clearfix">
+                <ul>
+                    <li>HOME</li>
+                    <li>PORTFOLIO</li>
+                    <li>CONTACT</li>
+                    <li id="back-to-top">BACK TO TOP</li>
+                </ul>
+            </nav>
+
+        </div>
     </footer>
 </body>
+
 </html>
