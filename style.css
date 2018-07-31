@@ -1,13 +1,12 @@
 * {
     box-sizing: border-box;
-    margin: 10px;
+    margin: 15px;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     background-color: white;
-    line-height: 1.6;
 }
 
 #student-name-1 {
@@ -47,7 +46,7 @@ header {
 }
 
 header p {
-    text-align:center;
+    text-align: center;
 }
 
 #profile-image {
@@ -99,53 +98,149 @@ address {
     clear: both;
 }
 
-/* Cristian */
+/* Cristian, Tablet */
 
-@media (min-width:768px) {}
+@media (min-width:768px) {
+   
+   * {
+       margin: auto;
+    } 
+    header {
+        position: relative;
+        padding: 5rem;
+        margin: auto;
+        width:100%;
+        height: 30%;
+        top:0;
+      
+    }
+    #student-name-1 {
+        width: 40%;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 10rem;
+        padding:0;
+        position: relative;
+        display: block;
+        font-weight: 1000;
+
+    }
+    .header-nav ul li {
+        width: 150px;
+        height: auto;
+        display: inline-block;
+        margin-bottom: 40px;
+        margin-top: 0px;
+        padding: 0px;
+        text-align: left;
+        list-style: none;
+        position: relative;
+        top: 0px;
+        font-weight: bold;
+    }
+    #profile-image {
+        width: 35%;
+        float: right;
+        margin-left: 0.5em;
+        position: relative;
+    }
+    #paragraph-text {
+        width: 55%;
+        text-align: center;
+        float: left;
+        font-size: 1.5rem;
+        padding: 0rem;
+    }
+
+    h2 {
+        padding: 20px;
+        margin: 40px;
+        font-weight: 1000;
+    }
+    h3 {
+        margin: 1rem;
+        font-weight: 1000;
+    }
+    p {
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+
+    .container-item {
+        width: 43%;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 10px;
+        
+    }
+    .container {
+        margin-left: 35px;
+    }
+
+
+    footer {
+        width: 80%;
+        display: block;
+        position: relative;
+        
+       
+
+    }
+    #back-to-top{
+        visibility: hidden;
+
+    }
+    #student-name {
+        visibility: visible;
+        display: initial;
+        position: relative;
+        bottom: 1.5rem;
+        left:5rem;
+    }
+
+
+
+
+
+
+
+
+}
 
 /* Ana Maria */
 
 @media (min-width:1024px) {
-    .first-line {
-        width: 100%;
-    }
     #student-name-1 {
-        width: 50%;
+        width: 30%;
         text-align: initial;
-        margin-top: 22px;
+        margin-top: 20px;
         padding: 0px;
-        position: absolute;
-        top: 0px;
+        position: relative;
         display: inline-block;
     }
     ul li {
-        /* display: inline; */
+        display: inline;
         text-align: center;
         float: right;
         font-size: 1rem;
         font-weight: bold;
     }
-    #profile-image {
-        width: 100%;
-        /* float: right; */
-    }
-    header p {
-        width: 100%;
-        text-align: left;
-        vertical-align: top;
-        font-size: 1.1rem;
-        padding-top: 12px;
-       
+    
+    #paragraph-text {
+        width: 60%;
+        text-align: center;
+        ;
+        font-size: 1.5rem;
     }
     .container-item {
-        width: 29%;
+        width: 30%;
         display: inline-block;
         vertical-align: top;
     }
     #profile-image {
-        width: 45%;
+        width: 30%;
         float: right;
-        margin-left: 30px;
     }
     .bottom-nav {
         visibility: visible;
@@ -169,10 +264,8 @@ address {
         font-size: 1rem;
     }
     header {
-        background-color:cornsilk;
+        background-color: white;
         position: relative;
-        height:400px;
-        width:100%;
     }
     .container {
         background-color: cornsilk;
@@ -190,7 +283,7 @@ address {
         height: auto;
         display: inline-block;
         margin-bottom: 40px;
-        margin-top: 35px;
+        margin-top: 0px;
         padding: 0px;
         text-align: left;
         list-style: none;
