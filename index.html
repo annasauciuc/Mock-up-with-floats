@@ -13,25 +13,31 @@
 
 <body>
     <header>
+        <div class="first-line">
+            <h1 id="student-name-1">Student Name</h1>
+
+            <nav class="header-nav">
+                <ul>
+                    <li>HOME</li>
+                    <li>PORTFOLIO</li>
+                    <li>CONTACT</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="clearfix"></div>
+        <!-- NEW DIV -->
         <div>
-            <h1>Student Name</h1>
-            <div class="header-nav">
-                <nav>
-                    <ul>
-                        <li>HOME</li>
-                        <li>PORTFOLIO</li>
-                        <li>CONTACT</li>
-                    </ul>
-                </nav>
+            <div id="div-profile-image">
+                <img id="profile-image" src="images/responsive-layout-profile.png" alt="profile image">
+            </div>
+            <div id="div-paragraph-text clearfix">
+                <p id="paragraph-text  clearfix">Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end
+                    web development at 20h-talent and am excited to put all my skills to use!</p>
             </div>
         </div>
 
-        <img id="profile-image" src="images/responsive-layout-profile.png" alt="profile image">
-        <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web development
-            at 20h-talent and am excited to put all my skills to use!</p>
-
     </header>
-
+    <div class="clearfix"></div>
     <div class="container">
         <h2>PORTFOLIO</h2>
         <div class="container-item">
@@ -60,7 +66,7 @@
             <h3>Photo Gallery</h3>
             <p>This project shows pictures from recent trip to the viewer and allows to easily navigate through photos. </p>
         </div>
-        <div clas="container-item">
+        <div class="container-item">
             <img src="images/portfolio-4.png" alt="Calculator">
             <h3>Calculator</h3>
             <p>Someone can enter in the numbers they want, and press the big blue button and get the result. </p>
@@ -80,8 +86,8 @@
 
         </address>
         <div class="bottom">
-            
-            <nav  class="bottom-nav clearfix">
+
+            <nav class="bottom-nav clearfix">
                 <ul>
                     <li>HOME</li>
                     <li>PORTFOLIO</li>
