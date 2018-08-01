@@ -135,7 +135,7 @@ address {
         padding: 0;
         position: relative;
         display: block;
-        font-weight: 1000;
+        font-weight:bold
     }
     header p {
         margin-top:0px;
@@ -175,11 +175,11 @@ address {
     h2 {
         padding: 20px;
         margin: 40px;
-        font-weight: 1000;
+        font-weight: bold;
     }
     h3 {
         margin: 1rem;
-        font-weight: 1000;
+        font-weight: bold;
     }
     h3 p {
         padding: 1rem;
