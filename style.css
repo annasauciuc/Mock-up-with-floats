@@ -1,12 +1,21 @@
 * {
     box-sizing: border-box;
-    margin: 15px;
+    margin: 5px;
+    padding: 5px;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
-    background-color: rgba(rgb(243, 241, 241), green, blue, alpha);
+    background-color: #EEDFCC;
+    width: 100%;
+    line-height: 1.5rem;
+    /* padding: 0px; */
+}
+
+#div-paragraph-text {
+    text-align: justify;
+    margin-top: 0px;
 }
 
 #student-name-1 {
@@ -28,19 +37,20 @@ h2 {
 
 .header-nav {
     width: 100%;
-    margin-left: 60px;
 }
 
 .header-nav ul li {
-    width: 50%;
+    width: 100%;
     display: block;
-    padding: 10px;
     text-align: center;
     list-style: none;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    margin-top: 15px;
 }
 
 header {
-    background-color: cornsilk;
+    background-color: white;
     width: 100%;
     height: auto;
 }
@@ -59,7 +69,7 @@ img {
 }
 
 footer {
-    background-color: lightgoldenrodyellow;
+    background-color: white;
     margin-top: 30px;
     width: 100%
 }
@@ -94,6 +104,7 @@ address {
     text-align: justify;
 }
 
+
 .clearfix {
     clear: both;
 }
@@ -127,7 +138,7 @@ address {
         font-weight: 1000;
     }
     .header-nav ul li {
-        width: 120px;
+        width: 100px;
         height: auto;
         display: inline-block;
         margin-bottom: 40px;
@@ -140,18 +151,22 @@ address {
         top: 0px;
         font-weight: bold;
     }
+    .header-nav {
+        margin-left: 80px;
+    }
     #profile-image {
-        width: 35%;
+        width: 40%;
         float: right;
         margin-left: 0.5em;
         position: relative;
     }
     #paragraph-text {
         width: 55%;
-        text-align: center;
+        text-align: left;
         float: left;
         font-size: 1.5rem;
         padding: 0rem;
+        border-bottom: 4px solid black;
     }
     h2 {
         padding: 20px;
@@ -162,7 +177,7 @@ address {
         margin: 1rem;
         font-weight: 1000;
     }
-    p {
+    h3 p {
         padding: 1rem;
         margin: 1rem;
     }
@@ -231,11 +246,12 @@ address {
 
 @media (min-width:1024px) {
     #student-name-1 {
-        width: 30%;
+        width: 50%;
         text-align: initial;
         margin-top: 10px;
-        top: 60px;
-        left: 0px;
+        top: 20px;
+        left: 1px;
+        margin-left: 10px;
         padding-bottom: 0px;
         position: absolute;
         display: inline-block;
@@ -248,10 +264,13 @@ address {
         font-weight: bold;
     }
     #paragraph-text {
+        margin-top: 20px;
+        float: right;
         width: 60%;
+        height: 100px;
         text-align: center;
-        ;
         font-size: 1.5rem;
+        line-height: 1rem;
     }
     .container-item {
         width: 30%;
@@ -259,8 +278,9 @@ address {
         vertical-align: top;
     }
     #profile-image {
-        width: 30%;
+        width: 38%;
         float: right;
+        padding-top: 10px;
     }
     .bottom-nav {
         visibility: visible;
@@ -293,27 +313,33 @@ address {
     header {
         background-color: white;
         position: relative;
+        height: 400px;
+        padding: 0px;
     }
     .container {
         background-color: cornsilk;
         margin-left: 0px;
-
     }
     address {
         text-align: justify;
         padding: 40px;
+        width: 90%;
     }
     footer p {
         text-align: center;
-        padding: 20px;
+        ;
+        margin-left: 40px;
+        width: 90%;
     }
     .header-nav ul li {
-        width: 150px;
         height: auto;
+        /* background-color: white; */
         display: inline-block;
         margin-bottom: 40px;
-        margin-top: 0px;
+        margin-top: 30px;
         padding: 0px;
+        margin-left: 0px;
+        margin-right: 60px;
         text-align: left;
         list-style: none;
         position: relative;
