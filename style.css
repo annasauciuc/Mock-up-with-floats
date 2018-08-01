@@ -10,7 +10,6 @@ body {
     background-color: #EEDFCC;
     width: 100%;
     line-height: 1.5rem;
-    /* padding: 0px; */
 }
 
 #div-paragraph-text {
@@ -31,12 +30,23 @@ h2 {
     padding-top: 40px;
 }
 
+.container {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-item {
+    margin: 0px;
+    padding: 0px;
+}
+
 .container p {
     text-align: center;
 }
 
 .header-nav {
     width: 100%;
+    margin: auto;
 }
 
 .header-nav ul li {
@@ -44,9 +54,6 @@ h2 {
     display: block;
     text-align: center;
     list-style: none;
-    margin-bottom: 10px;
-    padding-bottom: 15px;
-    margin-top: 15px;
 }
 
 header {
@@ -89,7 +96,6 @@ footer p {
     padding: 0px;
     margin: 0px;
     font-weight: bold;
-    /* float:right; */
 }
 
 #student-name {
@@ -104,7 +110,6 @@ address {
     text-align: justify;
 }
 
-
 .clearfix {
     clear: both;
 }
@@ -115,10 +120,6 @@ address {
     * {
         margin: auto;
     }
-    /* .wrapper{
-        margin-left:80px;
-
-    } */
     header {
         position: relative;
         padding: 5rem;
@@ -128,35 +129,32 @@ address {
         top: 0;
     }
     #student-name-1 {
-        width: 40%;
-        text-align: center;
-        margin-top: 20px;
-        margin-left: 10rem;
+        width: 50%;
+        margin: 10px auto;
         padding: 0;
         position: relative;
         display: block;
-        font-weight:bold
+        font-weight: bold
     }
     header p {
-        margin-top:0px;
         text-align: justify;
     }
     .header-nav ul li {
-        width: 100px;
         height: auto;
-        display: inline-block;
-        margin-bottom: 40px;
-        margin-left: 30px;
-        margin-top: 0px;
-        padding: 0px;
-        text-align: left;
+        margin: auto;
+        display: inline;
+        text-align: center;
         list-style: none;
-        position: relative;
         top: 0px;
         font-weight: bold;
     }
+    .header-nav ul {
+        margin: 0 auto;
+        width: auto;
+    }
     .header-nav {
-        margin-left: 80px;
+        width: 100%;
+        margin: auto;
     }
     #profile-image {
         width: 40%;
@@ -165,9 +163,8 @@ address {
         position: relative;
     }
     #paragraph-text {
-        width: 55%;
+        width: 100%;
         text-align: left;
-        float: left;
         font-size: 1.5rem;
         padding: 0rem;
         border-bottom: 4px solid black;
@@ -250,22 +247,16 @@ address {
 
 @media (min-width:1024px) {
     #student-name-1 {
+        float: left;
         width: 50%;
-        text-align: initial;
-        margin-top: 10px;
-        top: 20px;
-        left: 1px;
-        margin-left: 10px;
-        padding-bottom: 0px;
-        position: absolute;
-        display: inline-block;
+        text-align: justify;
+        margin: auto;
     }
     header p {
-        margin-top:0px;
+        margin-top: 0px;
         text-align: justify;
-        padding-left:20px;
+        padding-left: 20px;
     }
-
     ul li {
         display: inline;
         text-align: center;
@@ -274,12 +265,9 @@ address {
         font-weight: bold;
     }
     #paragraph-text {
-        margin-top: 20px;
-        float: right;
-     
-       
-        width: 50%;
-        height: 100px;
+        width: 100%;
+        height: auto;
+        margin: auto;
         text-align: center;
         font-size: 1.5rem;
         line-height: 1rem;
@@ -293,7 +281,6 @@ address {
         width: 38%;
         float: right;
         padding-top: 10px;
-        /* vertical-align: top; */
     }
     .bottom-nav {
         visibility: visible;
@@ -314,8 +301,8 @@ address {
     }
     footer {
         position: relative;
-       margin:0px;
-       padding:0px;
+        margin: 0px;
+        padding: 0px;
     }
     #student-name {
         visibility: visible;
@@ -327,7 +314,8 @@ address {
     }
     header {
         background-color: white;
-        position: relative;
+        width: 100%;
+        margin: auto;
         height: 500px;
         padding: 0px;
     }
@@ -342,31 +330,27 @@ address {
     }
     footer p {
         text-align: center;
-        margin-left: 40px;
-        width: 90%;
+        width: 100%;
+        margin: auto;
     }
     .header-nav ul li {
         height: auto;
-        /* background-color: white; */
-        display: inline-block;
-        margin-bottom: 40px;
-        margin-top: 30px;
-        padding: 0px;
-        margin-left: 0px;
-        margin-right: 60px;
+        width: auto;
+        margin: 0 auto;
+        display: inline;
         text-align: left;
         list-style: none;
-        position: relative;
-        top: 0px;
     }
-    .header-nav{
-        margin:0px;
-        padding:0px;
+    .header-nav {
+        width: 50%;
+        margin: auto;
+        display: inline;
+        float: right;
     }
-    h2 {
+      h2 {
         padding: 20px;
-        margin: 40px;
-    }
+        margin: 40px; 
+    }  
     .clearfix:after {
         content: "";
         clear: both;
