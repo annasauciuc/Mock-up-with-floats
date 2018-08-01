@@ -276,6 +276,7 @@ address {
     #paragraph-text {
         margin-top: 20px;
         float: right;
+     
        
         width: 50%;
         height: 100px;
@@ -292,6 +293,7 @@ address {
         width: 38%;
         float: right;
         padding-top: 10px;
+        /* vertical-align: top; */
     }
     .bottom-nav {
         visibility: visible;
@@ -312,6 +314,8 @@ address {
     }
     footer {
         position: relative;
+       margin:0px;
+       padding:0px;
     }
     #student-name {
         visibility: visible;
@@ -354,6 +358,10 @@ address {
         list-style: none;
         position: relative;
         top: 0px;
+    }
+    .header-nav{
+        margin:0px;
+        padding:0px;
     }
     h2 {
         padding: 20px;
