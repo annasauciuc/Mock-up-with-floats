@@ -102,7 +102,9 @@ address {
     text-align: justify;
 }
 
-.clearfix {
+.clearfix::after {
+    content: "";
+    display: table;
     clear: both;
 }
 
@@ -113,7 +115,7 @@ address {
         margin: auto;
     }
     header {
-        background-color: white;
+        background-color: lightgoldenrodyellow;
         margin: auto;
         width: 100%;
         height: auto;
@@ -162,7 +164,7 @@ address {
         margin: auto;
     }
     footer {
-        background-color: white;
+        background-color: lightgoldenrodyellow;
         width: 100%;
         display: inline-block;
         position: relative;
@@ -188,7 +190,6 @@ address {
         visibility: visible;
         width: 50%;
         position: absolute;
-        bottom: 5px;
         left: 5px;
         font-weight: bold;
         font-size: 1.1rem;
@@ -226,7 +227,7 @@ address {
         font-size: 1rem;
     }
     header {
-        background-color: white;
+        background-color: lightgoldenrodyellow;
         width: 100%;
         margin: auto;
         height: auto;
@@ -263,7 +264,7 @@ address {
         visibility: hidden;
     }
     footer {
-        background-color: white;
+        background-color: lightgoldenrodyellow;
         position: relative;
         margin: 0 auto;
         padding: 0px;
