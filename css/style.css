@@ -1,0 +1,293 @@
+* {
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 5px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    background-color: white;
+    width: 100%;
+    line-height: 1.5rem;
+}
+
+header {
+    background-color: lightgoldenrodyellow;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    margin: 0px;
+}
+
+#paragraph-text {
+    text-align: center;
+}
+
+#student-name-1 {
+    text-align: center;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 30px;
+    padding-top: 40px;
+}
+
+.container {
+    background-color: rgb(243, 221, 134);
+}
+
+.container p {
+    text-align: center;
+}
+
+.header-nav {
+    width: 100%;
+    margin: auto;
+}
+
+.header-nav ul li {
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: white;
+}
+
+#profile-image {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: lightgoldenrodyellow;
+    margin-top: 30px;
+    width: 100%;
+    margin: 0px;
+}
+
+footer p {
+    text-align: center;
+}
+
+#student-name {
+    margin: auto;
+    font-size: 1rem;
+    float:left;
+}
+
+.bottom-nav {
+    display: none;
+}
+
+#back-to-top {
+    font-size: 1rem;
+    float:right;
+}
+
+address {
+    text-align: justify;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.last_line {
+    border-top: 2px solid grey;
+    width: 100%;
+}
+
+/* Cristian, Tablet */
+
+@media (min-width:768px) {
+    * {
+        margin: auto;
+        padding:0;
+    }
+    header {
+        background-color: lightgoldenrodyellow;
+        margin: auto;
+        width: 100%;
+        height: auto;
+    }
+    #profile-image {
+        width: 100%;
+    }
+    #student-name-1 {
+        width: 50%;
+        margin: 10px auto;
+        padding: 0;
+        font-weight: bold;
+    }
+    #paragraph-text {
+        text-align: justify;
+    }
+    .header-nav ul li {
+        height: auto;
+        margin: 10px 10px;
+        display: inline;
+        text-align: center;
+        font-weight: bold;
+    }
+    .header-nav ul {
+        margin: 20px auto;
+        width: auto;
+        text-align: center;
+    }
+    .header-nav {
+        width: 100%;
+        margin: auto;
+    }
+    #profile-image {
+        width: 40%;
+        float: right;
+        margin-left: 0.5em;
+    }
+    h2 {
+        padding: 20px;
+        margin: 40px;
+    }
+    .container-item {
+        width: 49%;
+        display: inline-block;
+        vertical-align: top;
+        margin: auto;
+    }
+    footer {
+        background-color: lightgoldenrodyellow;
+        width: 100%;
+        display: inline-block;
+        position: relative;
+        margin: auto;
+    }
+    #back-to-top {
+        visibility: hidden;
+    }
+    .bottom-nav ul li {
+        float: right;
+        display: inline;
+        font-weight: bold;
+        font-size: 0.9rem;
+    }
+    .bottom-nav {
+        visibility: visible;
+        width: 50%;
+        float: right;
+        display: inline-block;
+        margin: 0px;
+        padding: 0px;
+        font-size: 1rem;
+    }
+    #student-name {
+        visibility: visible;
+        float: left;
+        margin: auto;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    /* Ana Maria */
+    @media (min-width:1024px) {
+        .header-nav ul li {
+            height: auto;
+            width: auto;
+            margin: auto;
+            display: inline;
+            text-align: center;
+            list-style: none;
+            padding: 0;
+        }
+        .header-nav {
+            margin: 15px auto;
+            width: 40%;
+            display: inline;
+            float: right;
+        }
+        #paragraph-text {
+            height: 300px;
+            width: 100%;
+            margin-left: 10px;
+            display: block;
+            font-size: 1.5vw;
+            color: gray;
+        }
+        
+        #student-name {
+            visibility: visible;
+            float: left;
+            width: 40%;
+            margin: auto;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+        
+        header {
+            background-color: lightgoldenrodyellow;
+            width: 100%;
+            margin: auto;
+            height: auto;
+            padding: 0px;
+        }
+        h2 {
+            padding: 20px;
+            margin: 40px;
+        }
+        #profile-image {
+            width: 38%;
+            float: right;
+            padding-top: 10px;
+            margin-bottom: 40px;
+        }
+        #student-name-1 {
+            float: left;
+            width: 25%;
+            margin: 40px 0;
+        }
+        .container-item {
+            width: 32%;
+            display: inline-block;
+            vertical-align: top;
+        }
+        .bottom-nav {
+            visibility: visible;
+            width: 50%;
+            float: right;
+            display: inline-block;
+            margin: 0px;
+            padding: 0px;
+            font-size: 1rem;
+        }
+        #back-to-top {
+            display: none;
+        }
+        footer {
+            background-color: lightgoldenrodyellow;
+            position: relative;
+            margin: 0 auto;
+            padding: 0px;
+        }
+        .container {
+            background-color: rgb(243, 221, 134);
+            margin: auto;
+            padding-left: 40px;
+        }
+        address {
+            text-align: justify;
+            padding: 40px;
+            width: 90%;
+        }
+        footer p {
+            text-align: center;
+            width: 100%;
+            margin: auto;
+        }
+    }
