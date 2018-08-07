@@ -39,6 +39,8 @@ h2 {
 
 .container {
     background-color: rgb(243, 221, 134);
+    padding: 0;
+    margin: 0;
 }
 
 .container p {
@@ -53,7 +55,9 @@ h2 {
 .header-nav ul li {
     width: 100%;
     display: block;
-    text-align: center;
+    text-align: center; 
+    background-color:rgb(243, 221, 134);
+    border-style: hidden;
 }
 
 #profile-image {
@@ -138,6 +142,7 @@ address {
         display: inline;
         text-align: center;
         font-weight: bold;
+        background-color: lightgoldenrodyellow;
     }
     .header-nav ul {
         margin: 20px auto;
@@ -206,6 +211,7 @@ address {
         display: inline;
         text-align: center;
         list-style: none;
+        background-color: lightgoldenrodyellow;
     }
     .header-nav {
         margin: 15px auto;
