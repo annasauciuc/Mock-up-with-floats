@@ -55,14 +55,9 @@ h2 {
 .header-nav ul li {
     width: 100%;
     display: block;
-<<<<<<< HEAD:css/style.css
     text-align: center;
-    background-color: white;
-=======
-    text-align: center; 
-    background-color:rgb(243, 221, 134);
+    background-color: rgb(243, 221, 134);
     border-style: hidden;
->>>>>>> 23caa2d33ff7c11a11efa01708fecf2c0f490372:style.css
 }
 
 #profile-image {
@@ -85,19 +80,26 @@ footer p {
     text-align: center;
 }
 
-#student-name {
-    margin: auto;
-    font-size: 1rem;
-    float:left;
+.bottom-nav {
+    visibility: hidden;
 }
 
-.bottom-nav {
-    display: none;
+#back-to-top, #student-name {
+    visibility: visible;
+    display: inline;
+    font-size: 0.8rem;
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+#student-name {
+    float: left;
+    padding-bottom: 20px;
 }
 
 #back-to-top {
-    font-size: 1rem;
-    float:right;
+    float: right;
 }
 
 address {
@@ -110,17 +112,11 @@ address {
     clear: both;
 }
 
-.last_line {
-    border-top: 2px solid grey;
-    width: 100%;
-}
-
 /* Cristian, Tablet */
 
 @media (min-width:768px) {
     * {
         margin: auto;
-        padding:0;
     }
     header {
         background-color: lightgoldenrodyellow;
@@ -135,7 +131,7 @@ address {
         width: 50%;
         margin: 10px auto;
         padding: 0;
-        font-weight: bold;
+        font-weight: bold
     }
     #paragraph-text {
         text-align: justify;
@@ -183,6 +179,7 @@ address {
         visibility: hidden;
     }
     .bottom-nav ul li {
+        visibility: visible;
         float: right;
         display: inline;
         font-weight: bold;
@@ -190,9 +187,13 @@ address {
     }
     .bottom-nav {
         visibility: visible;
+        float: right;
+        display: inline;
+        font-weight: bold;
+    }
+    #student-name {
+        visibility: visible;
         width: 50%;
-<<<<<<< HEAD:css/style.css
-=======
         position: absolute;
         left: 5px;
         font-weight: bold;
@@ -260,113 +261,33 @@ address {
     }
     .bottom-nav {
         visibility: visible;
->>>>>>> 23caa2d33ff7c11a11efa01708fecf2c0f490372:style.css
         float: right;
         display: inline-block;
         margin: 0px;
         padding: 0px;
-        font-size: 1rem;
     }
-    #student-name {
-        visibility: visible;
-        float: left;
+    #back-to-top {
+        visibility: hidden;
+    }
+    footer {
+        background-color: lightgoldenrodyellow;
+        position: relative;
+        margin: 0 auto;
+        padding: 0px;
+    }
+    .container {
+        background-color: rgb(243, 221, 134);
         margin: auto;
-        font-weight: bold;
-        font-size: 1rem;
+        padding-left: 40px;
     }
-    /* Ana Maria */
-    @media (min-width:1024px) {
-        .header-nav ul li {
-            height: auto;
-            width: auto;
-            margin: auto;
-            display: inline;
-            text-align: center;
-            list-style: none;
-            padding: 0;
-        }
-        .header-nav {
-            margin: 15px auto;
-            width: 40%;
-            display: inline;
-            float: right;
-        }
-        #paragraph-text {
-            height: 300px;
-            width: 100%;
-            margin-left: 10px;
-            display: block;
-            font-size: 1.5vw;
-            color: gray;
-        }
-        
-        #student-name {
-            visibility: visible;
-            float: left;
-            width: 40%;
-            margin: auto;
-            font-weight: bold;
-            font-size: 1rem;
-        }
-        
-        header {
-            background-color: lightgoldenrodyellow;
-            width: 100%;
-            margin: auto;
-            height: auto;
-            padding: 0px;
-        }
-        h2 {
-            padding: 20px;
-            margin: 40px;
-        }
-        #profile-image {
-            width: 38%;
-            float: right;
-            padding-top: 10px;
-            margin-bottom: 40px;
-        }
-        #student-name-1 {
-            float: left;
-            width: 25%;
-            margin: 40px 0;
-        }
-        .container-item {
-            width: 32%;
-            display: inline-block;
-            vertical-align: top;
-        }
-        .bottom-nav {
-            visibility: visible;
-            width: 50%;
-            float: right;
-            display: inline-block;
-            margin: 0px;
-            padding: 0px;
-            font-size: 1rem;
-        }
-        #back-to-top {
-            display: none;
-        }
-        footer {
-            background-color: lightgoldenrodyellow;
-            position: relative;
-            margin: 0 auto;
-            padding: 0px;
-        }
-        .container {
-            background-color: rgb(243, 221, 134);
-            margin: auto;
-            padding-left: 40px;
-        }
-        address {
-            text-align: justify;
-            padding: 40px;
-            width: 90%;
-        }
-        footer p {
-            text-align: center;
-            width: 100%;
-            margin: auto;
-        }
+    address {
+        text-align: justify;
+        padding: 40px;
+        width: 90%;
     }
+    footer p {
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+}
