@@ -39,6 +39,8 @@ h2 {
 
 .container {
     background-color: rgb(243, 221, 134);
+    padding: 0;
+    margin: 0;
 }
 
 .container p {
@@ -53,8 +55,14 @@ h2 {
 .header-nav ul li {
     width: 100%;
     display: block;
+<<<<<<< HEAD:css/style.css
     text-align: center;
     background-color: white;
+=======
+    text-align: center; 
+    background-color:rgb(243, 221, 134);
+    border-style: hidden;
+>>>>>>> 23caa2d33ff7c11a11efa01708fecf2c0f490372:style.css
 }
 
 #profile-image {
@@ -138,6 +146,7 @@ address {
         display: inline;
         text-align: center;
         font-weight: bold;
+        background-color: lightgoldenrodyellow;
     }
     .header-nav ul {
         margin: 20px auto;
@@ -182,6 +191,76 @@ address {
     .bottom-nav {
         visibility: visible;
         width: 50%;
+<<<<<<< HEAD:css/style.css
+=======
+        position: absolute;
+        left: 5px;
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+}
+
+/* Ana Maria */
+
+@media (min-width:1024px) {
+    .header-nav ul li {
+        height: auto;
+        width: auto;
+        margin: 15 auto;
+        display: inline;
+        text-align: center;
+        list-style: none;
+        background-color: lightgoldenrodyellow;
+    }
+    .header-nav {
+        margin: 15px auto;
+        width: 40%;
+        display: inline;
+        float: right;
+    }
+    #paragraph-text {
+        height: 300px;
+        width: 100%;
+        margin-left: 10px;
+        display: block;
+        font-size: 1.5vw;
+        color: gray;
+    }
+    #student-name {
+        visibility: visible;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    header {
+        background-color: lightgoldenrodyellow;
+        width: 100%;
+        margin: auto;
+        height: auto;
+        padding: 0px;
+    }
+    h2 {
+        padding: 20px;
+        margin: 40px;
+    }
+    #profile-image {
+        width: 38%;
+        float: right;
+        padding-top: 10px;
+        margin-bottom: 40px;
+    }
+    #student-name-1 {
+        float: left;
+        width: 25%;
+        margin: 40px 0;
+    }
+    .container-item {
+        width: 32%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .bottom-nav {
+        visibility: visible;
+>>>>>>> 23caa2d33ff7c11a11efa01708fecf2c0f490372:style.css
         float: right;
         display: inline-block;
         margin: 0px;
