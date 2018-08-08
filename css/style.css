@@ -20,7 +20,7 @@ header {
     margin: 0px;
 }
 
-#paragraph-text, #student-name-1, h2, h3  {
+#paragraph-text, #student-name-1, h2, h3 {
     text-align: center;
 }
 
@@ -43,6 +43,7 @@ h2 {
     width: 100%;
     margin: auto;
 }
+
 li a, footer a {
     text-decoration: none;
 }
@@ -202,7 +203,6 @@ footer ul {
     }
     .header-nav ul {
         margin: 20px auto;
-        
         text-align: end;
     }
     #paragraph-text {
