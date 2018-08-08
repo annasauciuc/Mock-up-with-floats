@@ -12,9 +12,9 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class="wrapper" id="home">
 
-        <header class="clearfix">
+        <header class="clearfix ">
 
             <h1 id="student-name-1">Ana&#38;Cristian</h1>
 
@@ -25,7 +25,7 @@
                         <a href="https://www.w3schools.com/" target="_blank">HOME</a>
                     </li>
                     <li>
-                        <a href="../20h-talent-ikigai-project-1-CristianDavidCabrera/index.html" target="_blank">PORTFOLIO</a>
+                        <a href="#portofolio" target="_blank">PORTFOLIO</a>
                     </li>
                     <li>
                         <a href="#"> CONTACT</a>
@@ -50,7 +50,7 @@
         </header>
         <div class="clearfix"></div>
         <div class="container">
-            <h2>PORTFOLIO</h2>
+            <h2 id="portofolio">PORTFOLIO</h2>
             <div class="container-item">
                 <img src="images/portfolio-1.png" alt="marketing page">
                 <h3>Marketing Page</h3>
@@ -85,37 +85,32 @@
                 <p>Someone can enter in the numbers they want, and press the big blue button and get the result. </p>
             </div>
         </div>
-        <footer class=" clearfix">
-            <h2>CONTACT</h2>
-            <p>If you're interested in chatting or waant more information about what I've been working on, i`d love to hear
-                from you!
+        <div id="info-contact">
+            <h3 id="contact">Contact</h3>
+            <p class="last-text">If you're interested in chatting or want more information about what I've been working on, I'd love to hear from
+                you!
             </p>
             <address>
-                <p>Phone: +1(111)555-1234 </p>
-                <p>Email:
-                    <a id="email" href="mailto:sauciuc.anamaria.dd@gmail.com">
-                        <br>sauciuc.dd@gmail.com</a>
-                </p>
-
-
+                <span>Phone +1 (111)555-1234</span><br>
+                <span> Email <a href="mailto:email@gmail.com" > email@yoursite.com</a>
+                </span>
             </address>
-            <div class="last_line clearfix">
-                <span id="student-name">Ana&#38;Cristian</span>
+        </div>
 
-                <a href="#student-name-1" id="back-to-top"> BACK TO TOP</a>
-
-                <nav class="bottom-nav  clearfix">
-                    <ul>
-
-                        <li>HOME</li>
-                        <li>PORTFOLIO</li>
-                        <li>CONTACT</li>
-
-                    </ul>
-                </nav>
-
-            </div>
-
+        <footer>
+            <p> Ana&#38;Cristian </p>
+            <a href="#">BACK TO TOP</a>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
         </footer>
     </div>
 </body>
