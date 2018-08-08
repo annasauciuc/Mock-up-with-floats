@@ -69,27 +69,27 @@ img {
     height: auto;
 }
 
-#info-contact {
-    padding: 45px 2.5%;
-}
-
-#info-contact p {
-    text-align: center;
-}
-
 address {
     text-align: center;
     margin-top: 10px;
-    color: rgb(14, 12, 12);
+    color: rgba(14, 12, 12, 0.993);
     font-size: 1rem;
 }
 
 footer {
     width: 100%;
-    border-top: 1px solid rgb(179, 177, 177);
+    border-top: 1px solid rgb(121, 117, 117);
     margin: 0 auto 20px auto;
     padding: 20px 0;
     box-sizing: border-box;
+}
+
+#info-contact {
+    padding: 45px 10px;
+}
+
+#info-contact p {
+    text-align: center;
 }
 
 footer p {
@@ -168,10 +168,16 @@ footer ul {
     #info-contact {
         clear: both;
     }
+    footer ul li:nth-child(2) {
+        margin: 0 15px;
+    }
+    footer ul li a {
+        display: inline-block;
+    }
     #info-contact p {
         width: 75%;
-        margin: 0 auto 40px auto;
-        font-size: 1.25rem;
+        margin: 0 auto 35px auto;
+        font-size: 1.2rem;
     }
     footer a {
         display: none;
@@ -182,15 +188,7 @@ footer ul {
     }
     footer ul li {
         display: inline-block;
-        border-bottom: 2px solid #f8f8f8;
-        padding-bottom: 5px;
-    }
-    footer ul li:nth-child(2) {
-        margin: 0 15px;
-    }
-    footer ul li a {
-        display: inline-block;
-        text-decoration: none;
+        padding-bottom: 4px;
     }
 }
 
@@ -257,5 +255,4 @@ footer ul {
         margin: auto;
         padding-left: 40px;
     }
-   
 }
