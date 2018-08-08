@@ -70,14 +70,19 @@ img {
 }
 
 footer {
-    background-color: lightgoldenrodyellow;
-    margin-top: 30px;
-    width: 100%;
-    margin: 0px;
+	width: 90%;
+	border-top: 1px solid #ddd;
+	margin: 0 auto 20px auto;
+	padding: 20px 0;
+	box-sizing: border-box;
 }
 
-footer p {
-    text-align: center;
+.student__name {
+	color: #4a4a4a;
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-weight: 800;
+	margin-bottom: 25px;
 }
 
 .bottom-nav {
@@ -95,7 +100,6 @@ footer p {
 
 #student-name {
     float: left;
-    padding-bottom: 20px;
 }
 
 #back-to-top {
@@ -280,14 +284,5 @@ address {
         margin: auto;
         padding-left: 40px;
     }
-    address {
-        text-align: justify;
-        padding: 40px;
-        width: 90%;
-    }
-    footer p {
-        text-align: center;
-        width: 100%;
-        margin: auto;
-    }
+    
 }
