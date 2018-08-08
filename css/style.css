@@ -20,15 +20,7 @@ header {
     margin: 0px;
 }
 
-#paragraph-text {
-    text-align: center;
-}
-
-#student-name-1 {
-    text-align: center;
-}
-
-h2, h3 {
+#paragraph-text, #student-name-1, h2, h3  {
     text-align: center;
 }
 
