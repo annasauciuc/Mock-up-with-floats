@@ -78,3 +78,4 @@ When creating your navigation bar, use the HTML5 element for extra structure and
 [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 [Validation Errors and how to fix them](http://line25.com/articles/10-common-validation-errors-and-how-to-fix-them)
+# ResponsivePageProject2
