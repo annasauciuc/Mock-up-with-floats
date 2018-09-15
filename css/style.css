@@ -5,8 +5,9 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Noto Serif', serif;
     font-size: 1rem;
+    line-height: 1.9;
     background-color: white;
     width: 100%;
     line-height: 1.5rem;
@@ -23,9 +24,13 @@ header {
 #paragraph-text, #student-name-1, h2, h3 {
     text-align: center;
 }
+a{
+    text-decoration: none;
+    color:black;
+}
 
 h2 {
-    margin-top: 30px;
+    margin-top: 0px;
     padding-top: 40px;
 }
 
@@ -109,9 +114,7 @@ footer ul {
 /* Cristian, Tablet */
 
 @media (min-width:768px) {
-    * {
-        margin: auto;
-    }
+  
     header {
         background-color: lightgoldenrodyellow;
         margin: auto;
@@ -153,7 +156,7 @@ footer ul {
     }
     h2 {
         padding: 20px;
-        margin: 40px;
+        margin: 0px;
     }
     .container-item {
         width: 49%;
@@ -164,9 +167,7 @@ footer ul {
     #info-contact {
         clear: both;
     }
-    footer ul li:nth-child(2) {
-        margin: 0 15px;
-    }
+    
     footer ul li a {
         display: inline-block;
     }
@@ -206,12 +207,9 @@ footer ul {
         text-align: end;
     }
     #paragraph-text {
-        height: 300px;
         width: 100%;
         margin-left: 10px;
         display: block;
-        font-size: 1.5vw;
-        color: gray;
     }
     header {
         background-color: lightgoldenrodyellow;
@@ -222,10 +220,10 @@ footer ul {
     }
     h2 {
         padding: 20px;
-        margin: 40px;
+        margin: 0px;
     }
     #profile-image {
-        width: 38%;
+        width: 33%;
         float: right;
         padding-top: 10px;
         margin-bottom: 40px;
