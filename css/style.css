@@ -21,12 +21,44 @@ header {
     margin: 0px;
 }
 
+#div-profile-image {
+    margin-top: 100px;
+}
+
 #paragraph-text, #student-name-1, h2, h3 {
     text-align: center;
 }
-a{
+
+#student-name-1 {
+    line-height: 1.3;
+}
+
+a {
     text-decoration: none;
-    color:black;
+    color: black;
+    position: relative;
+}
+
+a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: rgb(56, 56, 54);
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+a:hover:before {
+    text-decoration: none;
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
 }
 
 h2 {
@@ -54,6 +86,7 @@ li a, footer a {
 }
 
 .header-nav ul li {
+    font-size: 1rem;
     width: 100%;
     display: block;
     text-align: center;
@@ -68,6 +101,11 @@ li a, footer a {
 img {
     width: 100%;
     height: auto;
+    transition: all .2s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
 }
 
 address {
@@ -86,7 +124,9 @@ footer {
 }
 
 #info-contact {
+    margin: 0;
     padding: 45px 10px;
+    background-color: lightgoldenrodyellow;
 }
 
 #info-contact p {
@@ -95,10 +135,12 @@ footer {
 
 footer p {
     float: left;
+    font-size: 0.8rem;
 }
 
 footer a {
     float: right;
+    font-size: 0.8rem;
 }
 
 footer ul {
@@ -113,26 +155,29 @@ footer ul {
 
 /* Cristian, Tablet */
 
-@media (min-width:768px) {
-  
+@media (min-width: 768px) {
     header {
         background-color: lightgoldenrodyellow;
         margin: auto;
         width: 100%;
         height: auto;
     }
+
     #profile-image {
         width: 100%;
     }
+
     #student-name-1 {
         width: 50%;
         margin: 10px auto;
         padding: 0;
-        font-weight: bold
+        font-weight: 600;
     }
+
     #paragraph-text {
         text-align: justify;
     }
+
     .header-nav ul li {
         margin: 10px 10px;
         display: inline;
@@ -140,49 +185,59 @@ footer ul {
         font-weight: bold;
         background-color: lightgoldenrodyellow;
     }
+
     .header-nav ul {
         margin: 20px auto;
         width: auto;
         text-align: center;
     }
+
     .header-nav {
         width: 100%;
         margin: auto;
     }
+
     #profile-image {
         width: 40%;
         float: right;
         margin-left: 0.5em;
     }
+
     h2 {
         padding: 20px;
         margin: 0px;
     }
+
     .container-item {
         width: 49%;
         display: inline-block;
         vertical-align: top;
         margin: auto;
     }
+
     #info-contact {
         clear: both;
     }
-    
+
     footer ul li a {
         display: inline-block;
     }
+
     #info-contact p {
         width: 75%;
         margin: 0 auto 35px auto;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
+
     footer a {
         display: none;
     }
+
     footer ul {
         display: block;
         float: right;
     }
+
     footer ul li {
         display: inline-block;
         padding-bottom: 4px;
@@ -191,26 +246,30 @@ footer ul {
 
 /* Ana Maria */
 
-@media (min-width:1024px) {
+@media (min-width: 1024px) {
     .header-nav ul li {
         margin: auto;
         display: inline;
         text-align: end;
         background-color: lightgoldenrodyellow;
     }
+
     .header-nav {
         margin: 15px auto;
         display: inline;
     }
+
     .header-nav ul {
         margin: 20px auto;
         text-align: end;
     }
+
     #paragraph-text {
         width: 100%;
         margin-left: 10px;
         display: block;
     }
+
     header {
         background-color: lightgoldenrodyellow;
         width: 100%;
@@ -218,32 +277,39 @@ footer ul {
         height: auto;
         padding: 0px;
     }
+
     h2 {
         padding: 20px;
         margin: 0px;
     }
+
     #profile-image {
         width: 33%;
         float: right;
         padding-top: 10px;
         margin-bottom: 40px;
     }
+
     #info-contact p {
         width: 50%;
         margin: 0 auto 50px auto;
         font-size: 1.2rem;
     }
+
     #student-name-1 {
         float: left;
         width: 25%;
         margin: 40px 0;
-        font-size: 1.5rem;
+        font-size: 1rem;
+        font-weight: 600;
     }
+
     .container-item {
         width: 32%;
         display: inline-block;
         vertical-align: top;
     }
+
     .container {
         background-color: rgb(243, 221, 134);
         margin: auto;
